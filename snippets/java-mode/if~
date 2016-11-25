@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: setup
+# key: setup
+# --
+
+/*
+
+${1:Enter description}
+
+By `user-full-name` -ICS4U`(current-time-string)`
+
+*/
+
+public class ${4:`(file-name-base
+                           (or (buffer-file-name)
+                        (buffer-name)))`}
+{
+  $0
+}

@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# name: setup
+# key: setup
+# --
+
+/*
+
+${1:Enter description}
+
+By `user-full-name` -ICS4U
+`(current-time-string)`
+
+*/
+
+import java.awt.*;
+import java.text.DecimalFormat;
+
+class ${4:`(file-name-base
+                    (or (buffer-file-name)
+                        (buffer-name)))`}
+{
+        public static void main(String args[])
+        {
+                $0
+        }
+}
