@@ -141,10 +141,10 @@
 (define-key jack-mode-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
 
-(require 'multiple-cursors)
-(define-key jack-mode-map "C->" 'mc/mark-next-like-this)
-(define-key jack-mode-map "C-<" 'mc/mark-previous-like-this)
-(define-key jack-mode-map "C-c d" 'mc/mark-all-in-region)
+;;(require 'multiple-cursors)
+;;(define-key jack-mode-map "C->" 'mc/mark-next-like-this)
+;;(define-key jack-mode-map "C-<" 'mc/mark-previous-like-this)
+;;(define-key jack-mode-map "C-c d" 'mc/mark-all-in-region)
 
 
 
